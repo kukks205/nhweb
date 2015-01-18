@@ -21,9 +21,16 @@
         </div>
 
 
-        <div id="navbar" class="navbar-collapse collapse pull-right">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+        <div id="navbar" class="navbar-collapse collapse pull-right" >
+            <ul class="nav navbar-nav" style="padding: 1px;">
+                <li class="active" style="padding: 0px;" >
+                    <a href="#">
+                       <img  src="../themes/fb/img/avatar.jpg" class="img-responsive text-top" width="22px" height="22px" style="display: inline;"> Suputtana
+                    </a>
+                        
+                </li>
+                <li class="active"><a href="#">หน้าหลัก</a></li>
+                
 
 
 

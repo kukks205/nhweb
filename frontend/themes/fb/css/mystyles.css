@@ -128,7 +128,7 @@ hr {
 
 .logo {
     display:block;
-    padding:3px;
+    padding:2px;
     background-color:#fff;
     color:#3B5999;
     height:28px;
@@ -140,7 +140,7 @@ hr {
     font-weight:700;
     text-align:center;
     text-decoration:none;
-    text-shadow:0 0 1px;
+    text-shadow:0 0 0px;
     border-radius:2px;
 }
 #sidebar-footer {
