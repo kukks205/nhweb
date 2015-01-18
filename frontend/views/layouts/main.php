@@ -26,6 +26,7 @@ AppAsset::register($this);
         <link rel="shortcut icon" href="favicon.ico">
         <link href="../themes/fb/lib/boostrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="../themes/fb/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="../themes/fb/lib/ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css" />
         <link href="../themes/fb/css/mystyles.css" rel="stylesheet">
         <?php //$this->head() ?>
     </head>

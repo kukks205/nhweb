@@ -22,16 +22,16 @@ $this->title = '::Home';
 
         <ul class="list-inline">
             <li>
-                <a href=""><i class="fa fa-pencil-square"></i></a>
+                <a href=""><i class="fa fa-pencil-square" style="font-size: 18px;"></i></a>
             </li>
             <li>
-                <a href=""><i class="fa fa-camera"></i></a>
+                <a href=""><i class="fa fa-camera" style="font-size: 18px;"></i></a>
             </li>
             <li>
-                <a href=""><i class="glyphicon glyphicon glyphicon-user"></i></a>
+                <a href=""><i class="icon ion-person-add" style="font-size: 20px;"></i></a>
             </li>
             <li>
-                <a href=""><i class="glyphicon glyphicon glyphicon-paperclip"></i></a>
+                <a href=""><i class="glyphicon glyphicon glyphicon-paperclip" style="font-size: 18px;"></i></a>
             </li>
         </ul>
     </form>
