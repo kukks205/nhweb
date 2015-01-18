@@ -22,9 +22,10 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php //Html::csrfMetaTags() ?>
-        <title>สสอ.หนองหาน<?php //echo Html::encode($this->title)     ?></title>
+        <title>สสอ.หนองหาน <?php echo Html::encode($this->title)     ?></title>
         <link rel="shortcut icon" href="favicon.ico">
         <link href="../themes/fb/lib/boostrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../themes/fb/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
         <link href="../themes/fb/css/mystyles.css" rel="stylesheet">
         <?php //$this->head() ?>
     </head>
@@ -65,7 +66,8 @@ AppAsset::register($this);
 
 
 
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>-->
+
+        <script src="../themes/fb/js/jquery-2.1.3.js"></script>
         <script src="../themes/fb/lib/boostrap-3.3.1/js/bootstrap.min.js"></script>
         <script src="../themes/fb/js/scripts.js"></script>
     </body>

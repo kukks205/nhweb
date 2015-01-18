@@ -1,51 +1,58 @@
 <?php
 /* @var $this yii\web\View */
-$this->title = 'My Yii Application';
+$this->title = '::Home';
 ?>
-<div class="site-index">
+<div class="panel" style="padding: 8px;">
+    <ul class="list-inline">
+        <li>
+            <a href=""><i class="fa fa-pencil-square"> อัพเดตสถานะ</i></a>
+        </li>
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <li>
+            <a href=""><i class="fa fa-camera"> เพิ่มรูปภาพ</i></a>
+        </li>
+    </ul>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
+    <form class="form-horizontal" role="form">
+        <div class="form-group" style="padding:10px;">
+            <textarea class="form-control" placeholder="Update your status"></textarea>
         </div>
+        <button class="btn btn-primary pull-right" type="button">Post</button>
 
+        <ul class="list-inline">
+            <li>
+                <a href=""><i class="fa fa-pencil-square"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-camera"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="glyphicon glyphicon glyphicon-user"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="glyphicon glyphicon glyphicon-paperclip"></i></a>
+            </li>
+        </ul>
+    </form>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>ข่าวและประกาศ 10 อันดับล่าสุด</h4></div>
+    <div class="panel-body">
+        <p><img src="//placehold.it/150x150" class="img-circle pull-right"> <a href="#">The Bootstrap Playground</a></p>
+        <div class="clearfix"></div>
+        <hr>
+        Design, build, test, and prototype using Bootstrap in real-time from your Web browser. Bootply combines the power of hand-coded HTML, CSS and JavaScript with the benefits of responsive design using Bootstrap. Find and showcase Bootstrap-ready snippets in the 100% free Bootply.com code repository.
+    </div>
+    <hr>
+    <div class="panel panel-default">
+        <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>ข่าวและประกาศ 10 อันดับล่าสุด</h4></div>
+        <div class="panel-body">
+            <p><img src="//placehold.it/150x150" class="img-circle pull-right"> <a href="#">The Bootstrap Playground</a></p>
+            <div class="clearfix"></div>
+            <hr>
+            Design, build, test, and prototype using Bootstrap in real-time from your Web browser. Bootply combines the power of hand-coded HTML, CSS and JavaScript with the benefits of responsive design using Bootstrap. Find and showcase Bootstrap-ready snippets in the 100% free Bootply.com code repository.
+        </div>
     </div>
 </div>

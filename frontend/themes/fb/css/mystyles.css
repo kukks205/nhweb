@@ -42,7 +42,8 @@ hr {
 
 .wrapper:after,
 .column:after {
-    clear: both;
+    //clear: both;
+    //padding:3px; 
 }
 
 .column {
@@ -56,7 +57,7 @@ hr {
 }
 
 .full{
-    padding-top:60px;
+    padding-top:35px;
 }
 
 .box {
@@ -181,12 +182,19 @@ h1,h2,h3 {
 .panel textarea, .well textarea, textarea.form-control
 {
     resize: none;
+    padding-bottom: 0px;
 }
 
 .badge{
     color:#3B5999;
     background-color:#fff;
 }
+
+.badge-primary{
+    color:#fff;
+    background-color:#3B5999;
+}
+
 .badge:hover, .badge-inverse{
     background-color:#3B5999;
     color:#fff;
