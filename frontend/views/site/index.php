@@ -11,6 +11,9 @@ $this->title = '::Home';
         <li>
             <a href=""><i class="fa fa-camera"> เพิ่มรูปภาพ</i></a>
         </li>
+        <li>
+            <a href=""><i class="glyphicon glyphicon glyphicon-paperclip"> เพิ่มไฟล์</i></a>
+        </li>
     </ul>
 
 
